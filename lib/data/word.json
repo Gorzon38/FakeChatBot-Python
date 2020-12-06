@@ -1,0 +1,84 @@
+{
+    "answ": [{
+        "yes": [ 
+            "oui","yes","ui","ya","ouai"
+        ],
+        "no": [  
+            "non","no","nope","nein"
+        ],
+        "ok": [
+            "ok","okay","d'accord","pas de soucie"
+        ],
+        "what": [
+            "quoi","pardon","de quoi","what"
+        ]
+    }],
+    
+    "interact": [{
+        "feel": [
+            "cv","sa va","ça va"
+        ],
+        "time": [
+            "date","time","heure"
+        ],
+        "play": [
+            "play","game","jeu","jeux"
+        ],
+        "bye": [
+            "bye","au revoir", "salut","goodbye"
+        ],
+        "why":[
+            "pk","pourquoi","why"
+        ]
+            
+    }],
+
+    "feel": [{
+        "good" :[
+            "bien", "good", "ça va", "sa va"
+        ],
+        "bad": [
+            "mal", "pas bien","not good"
+        ],
+        "sad":[
+            "sad","triste"
+        ],
+        "super": [
+            "super","génial","very good", "en pleine forme"
+        ],
+        "bof":[
+            "bof","ça va"
+        ]
+    }],
+
+    "emote":[{
+        "good":[
+            ":D",":)"
+        ],
+        "bad":[
+            ">:(", ""
+        ],
+        "sad":[
+            ":'("
+        ],
+        "bof": [
+            ":/",":|"
+        ],
+        "wink":[
+            ";)",";D"
+        ],
+        "moque":[
+            ">:)",">:D"
+        ],
+        "sweat_smile":[
+            "^^'"
+        ],
+        "swet_no" :[
+                "-__-'"
+        ]
+            
+        
+    }]
+    
+    
+}

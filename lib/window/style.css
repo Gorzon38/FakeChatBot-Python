@@ -1,0 +1,45 @@
+@font-face {
+    font-family: PixelEmulator;
+    src: url(PixelEmulator.ttf);
+}
+
+body{
+    padding-left: 0em;
+    background-color: black;
+    position: absolute;
+    right: 300px;
+}
+
+#screen{
+    border: 2px solid white;
+    left: 800px;
+}
+
+#userInput{
+    border: 2px solid white;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -50px;
+}
+
+#textInput{
+    font-family: PixelEmulator;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    width: 800px;
+    border: none;
+    
+
+}
+
+#buttonInput {
+    color: white;
+    background-color: gray;
+    font-family: PixelEmulator;
+    font-size: 25px;
+    position: absolute;
+    right: 0px;
+    border: none;
+}
+
