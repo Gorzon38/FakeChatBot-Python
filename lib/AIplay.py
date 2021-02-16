@@ -13,11 +13,11 @@ def NumberToLetter(computerChoice):
     else:                       return "/scissors\n"
 
 barre = '\n'+''.center(28,"=")
-def win(userChoice, computerChoice):    print(NumberToLetter(computerChoice),barre+'\n','! Utilisateur a gagner !'.rjust(25),barre);
+win = lambda userChoice, computerChoice:    print(NumberToLetter(computerChoice),barre+'\n','! Utilisateur a gagner !'.rjust(25),barre);
 
-def lose(userChoice, computerChoice):   print(NumberToLetter(computerChoice),barre+'\n','! Ordis a gagner !'.rjust(22),barre);
+lose = lambda userChoice, computerChoice:   print(NumberToLetter(computerChoice),barre+'\n','! Ordis a gagner !'.rjust(22),barre);
 
-def draw(userChoice, computerChoice):   print(NumberToLetter(computerChoice),barre+'\n','! Egaliter !'.rjust(15),barre)
+draw = lambda userChoice, computerChoice:   print(NumberToLetter(computerChoice),barre+'\n','! Egaliter !'.rjust(15),barre)
 
 
 def rpsAI():
