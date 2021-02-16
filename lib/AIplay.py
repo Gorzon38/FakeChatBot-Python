@@ -173,9 +173,9 @@ def guessNumber():
 def TicTacToe():
     board = [' ' for x in range(10)]
 
-    def insertLetter(letter, pos):  board[pos] = letter
+    insertLetter = lambda letter, pos:  board[pos] = letter
 
-    def spaceIsFree(pos):   return board[pos] == ' '
+    spaceIsFree = lambda pos:   return board[pos] == ' '
 
     def printBoard(board):
         print('     |    |')
@@ -287,7 +287,7 @@ def TicTacToe():
 
 #PENDU
 def pendu():
-    hangmanPics = ['''
+    hangmanPics = ('''
         +---+
             |
             |
@@ -322,7 +322,7 @@ def pendu():
         0   |
        /|\  |
        / \  |
-           ===''']
+           ===''')
     
     secretWordRead = open('lib\data\data.txt').read().split()
     secretWordChoose = randint(0,len(secretWordRead) -1)
